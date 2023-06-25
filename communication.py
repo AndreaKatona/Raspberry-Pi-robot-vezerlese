@@ -34,7 +34,7 @@ class Communication:
             return True
         except Exception :
             print('Hiba a csatlakozás során, kérem próbálja újra')
-            False
+            return False
             
         
     def send(self, msg):
